@@ -1,0 +1,132 @@
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+
+.logo{
+    width: 268px;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{font-weight:200;
+    text-decoration: none;
+    color: #ababab;
+    font: size 13px;;}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.main-menu{
+    background-color: white;
+    /*box-shadow: 2px 0px  5px #ababab ;*/
+    
+}
+a:hover{
+    color: #00b39b;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2{
+    font-weight:lighter;
+    color: #00b39b;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.banner{
+    text-align: center;
+    margin-top: 100px;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+
+}
+.icon{
+    width: 40px;
+}
+
+.text{
+    display: flex;
+    color: #ababab;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: left ;
+    /* margin-left: 10px; */
+}
+
+.square{
+    display: flex;
+    justify-content: space-around;
+}
+
+.square-1{
+    width: 331px;
+    height: 365px;
+    background-color: #00ccb1;
+    border-radius: 10px;   
+}
+.square-1-1{
+    display:inline-block;
+    flex-direction: column;
+    padding: 33px;
+    /* margin: 30px; */
+}
+
+.square-2{
+    width: 331px;
+    height: 365px;
+    background-color:#3d83df;
+    border-radius: 10px;   
+}
+.square-2-2{
+    display:inline-block;
+    flex-direction: column;
+    padding: 33px;
+    /* margin: 30px; */
+}
+
+
+.title-box{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.text-box{
+    color: white;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+#country{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-weight: 200;
+    font-size: 19px;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 81px;
+}
+
+
+
